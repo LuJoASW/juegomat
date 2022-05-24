@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <title>App Mini Juegos</title>
     <link rel="stylesheet" href="css/img.css">
+    
  
     <style>
+        body{
+            background-image: url('https://img.freepik.com/vector-gratis/fondo-dibujos-animados-elementos-matematicas_23-2148157674.jpg?w=2000');
+            
+               
+        
+        }
+
         img:hover   {
-        background-color: #FA5858;
+        background-color: #aA3884;
                     }
         img.footer:hover{
         background-color: #FE642E;    
@@ -19,8 +27,20 @@
         <img id="star3" src="img\star3.png" style="display:none">
  
 </head>
-     <body>
+     <body id="agua">
+         
+        
      <header>
+         
+        
+
+            <div class="centrar">
+                <button id="im4" type="button"> <img id="im4" src="img\regresar.png"  onclick="location.href='Index.html'"/></button>
+            </div>
+
+        
+        
+         
             <h1> Mini Juegos </h1>
             <h2> Instrucciones: <p> Selecciona el número que corresponda a la cantidad presentada </p> </h2>        
        </header>
@@ -34,12 +54,22 @@
         <img src="img\8.png">
         <img src="img\9.png">
          -->
-            <script src="js/efectos.js"></script>               
-            <script src="js/dibujos.js"></script> 
+            <!-- <script src="js/efectos.js"></script>  -->
+            
+            <div class="centrar">        
+              <script id="num" src="js/dibujos.js"></script>
+            </div>
+            
       </body>
 <footer>
-            <script src="js/OnClic.js"></script> 
-            <script src="js/numeros.js"></script>                    
+
+            
+            
+            <div class="centrar">  
+                <script id="num" src="js/numeros.js"></script> 
+             </div>
+             
+             <script src="js/OnClic.js"></script>
+                                
 </footer>
 </html>
-

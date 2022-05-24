@@ -28,7 +28,7 @@ if (Nivel == 1) {
         {
          src = Imagenes[Math.floor(Math.random() * Imagenes.N)];
         }
-        document.write("<IMG SRC=" + src + " custom=" + NUM_IMAGENES + " id=" + src.substr(src.length - 5, 1) + " onclick=EventoClicImagen(this)>");
+        document.write("<IMG  CLASS='IM2' SRC=" + src + " custom=" + NUM_IMAGENES + " id=" + src.substr(src.length - 5, 1) + " onclick=EventoClicImagen(this)>");
         
     }
 }
@@ -55,7 +55,7 @@ if (Nivel == 2) {
         {
          src = Imagenes[Math.floor(Math.random() * Imagenes.N)];
         }
-        document.write("<IMG SRC=" + src + " custom=" + NUM_IMAGENES + " id=" + src.substr(src.length - 5, 1) + " OnClick=EventoClicImagen(this)>");
+        document.write("<IMG CLASS='IM2' SRC=" + src + " custom=" + NUM_IMAGENES + " id=" + src.substr(src.length - 5, 1) + " onclick=EventoClicImagen(this)>");
         
         
     }
@@ -86,7 +86,7 @@ if (Nivel == 3) {
         {
          src = Imagenes[Math.floor(Math.random() * Imagenes.N)];
         }
-        document.write("<IMG SRC=" + src + " custom=" + NUM_IMAGENES + " id=" + src.substr(src.length - 5, 1) + " OnClick=EventoClicImagen(this)>");
+        document.write("<IMG CLASS='IM2' SRC=" + src + " custom=" + NUM_IMAGENES + " id=" + src.substr(src.length - 5, 1) + " onclick=EventoClicImagen(this)>");
         
         
     }

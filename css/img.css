@@ -1,55 +1,95 @@
-img{
-	padding: 15px 30px;
-	display: inline-block;
-	vertical-align:middle
+.centrar{
+        text-align: center;
+        padding-top: 2em;
+        padding-bottom: 1.5em;
+        }
+#num{
+        height: 10em;
+        width: 10em;
+        opacity: 100%;
+        
 }
-
-img{
-    height: 100px;
-    width: 100px;
-    background: #F0FFFF;
-    margin: 50px;
+#star1, #star2,#star3{
+        height: 10em;
+        width: 10em;
+        background-color: transparent;
+        background-image: none;
+    }
+.IM2{
+    padding: 1em 1em;
+    height: 10em;
+    width: 10em;
+    background: pink;
+    margin: 2em;
     text-align: center;
-    border: 1px solid black;
-    box-shadow: 
-	        10px 10px 0px gray,
-                20px 20px 0px gray,
-                20px 20px 0px gray,
-                20px 20px 0px gray,
-                20px 20px 0px black,
-                20px 20px 0px black;
+    border: 1em solid green;
+         box-shadow: 
+         3px  3px 0px #85f118,
+         6px  6px 0px #2755ee,
+         9px  9px 0px #d45be4,
+        12px 12px 0px #080503,
+        15px 15px 0px #000000; 
 }
-
-
-img:hover {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+.IM3{
+        padding: 1em 1em;
+        height: 10em;
+        width: 10em;
+        background: rgb(76, 235, 62);
+        margin: 2em;
+        text-align: center;
+        border: 1em solid rgb(49, 206, 218);
+             box-shadow: 
+             3px  3px 0px #f11818,
+             6px  6px 0px #91ee27,
+             9px  9px 0px #5be48f,
+            12px 12px 0px #080503,
+            15px 15px 0px #000000; 
+    }
+    
+#im4{    
+       
+        height: 20em;
+        width: 30em;
+        background: transparent;
+        border: none;
 }
-
-
 h1{
 	text-align:center;
-	font-size: 100px;
-        background: Blue;
-}
-
+	font-size: 150px;
+        background-image: url('https://cdn2.hubspot.net/hubfs/521251/estudiar_matematicas-1.png');
+}       
 h2{
-	text-align:center;
-	font-size: 75px;
-        background: red;
+        text-align:center;
+	font-size: 45px;
+        background-image: url("https://previews.123rf.com/images/rastudio/rastudio1611/rastudio161100364/65116972-dibujado-a-mano-de-dibujos-animados-del-paisaje-de-oto%C3%B1o-dibujo-animado-colorido-del-fondo-del-oto%C3%B1o.jpg");
+         
+}
+h3{
+        text-align:right;
+	font-size: 45px;
 }
 
 p{
-	text-align:center;
-	font-size: 20px;
-        background: orange;
+        text-align:left;
+	font-size: 60px;
+         background: yellow;
+        
 }
+        
 
 header{
-	background: #A52A2A;
+	background:transparent;
 }
 
 
-body{
-	background: #7FFF00;
+
+
+#im1{
+
+        background: transparent;
+        width: 25em;
+        height: 15em;
+        background-color: transparent;
+        
 }
+

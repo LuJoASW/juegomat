@@ -1,0 +1,57 @@
+img{
+    padding: 0px 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img{
+    height: 60px;
+    width: 70px;
+    margin: 25px;
+    border: 0px solid black;
+}
+
+body{
+    background-image: url("http://2.bp.blogspot.com/-hXUazLcO9P4/TrKiT2Yfs4I/AAAAAAAAXT4/wO_NPmuYrG8/s1600/dibujosdepizarraparaimprimir1.jpg");
+    opacity: 100%;
+    background-size: 100% 100%;
+}
+
+#ft{
+
+    height: 8em;
+    width: 8em;
+    opacity: 100%;
+
+}
+#sum{
+
+    background-color: transparent;
+    background-image: none;
+    width: 5em;
+    height: 5em;
+}
+.rt{
+    background-color: transparent;
+    background-image: none;
+    width: 5em;
+    height: 5em;
+}
+#sn{
+    background-color: transparent;
+    background-image: none;
+    width: 5em;
+    height: 5em;
+}
+.centrar{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+}
+#tr{
+        height: 20em;
+        width: 30em;
+        background: transparent;
+        border: none;
+        text-align: right;
+}

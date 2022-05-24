@@ -1,5 +1,5 @@
 const miTitulo = document.querySelector('h1');
-miTitulo.textContent = '¡Bienvenido!';
+miTitulo.textContent = '¡juguemos !';
 
 const miTitulo2 = document.querySelector('h2');
-miTitulo2.textContent = '¡Tú puedes!';
+miTitulo2.textContent = '¡ Vamos tu puedes!';

@@ -49,7 +49,7 @@ op=op;
 function VecImagenes()
 {
 n=0;
-this[n++]="img/1.png";
+this[n++]="img/1.jpg";
 this[n++]="img/2.png";
 this[n++]="img/3.png";
 this[n++]="img/4.png";
@@ -75,7 +75,7 @@ NUM_IMAGENES = posi;
 for (var i = 0; i < posi; i++) 
 {
    n += i;
-document.write("<IMG SRC="+src+">");
+document.write("<IMG CLASS='IM3' SRC="+src+">");
 cant+=i;
 }
 
